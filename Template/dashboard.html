@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Postit</title>
+  </head>
+  <body>
+    <header>
+      <h1>Postit</h1>
+      <div class="header-image">
+        <img
+          src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2MzU2NjgxMDUwMDM5OTk5/_photo-by-per-anders-petterssongetty-images.jpg"
+          alt="profile pic"
+        />
+        <p class="logout"><strong>Logout</strong></p>
+      </div>
+    </header>
+    <p>
+      Create Group
+      <a href="createGroup.html"><i class="fa fa-plus-circle"></i></a>
+    </p>
+    <div class="display">
+      <div class="groups">
+        <h4>Designers</h4>
+        <h4 class="active">Developers</h4>
+        <h4>Data Scientists</h4>
+      </div>
+      <div class="message-display">
+        <div class="message-head">
+          <div class="message-image-div">
+            <img
+              class="message-image"
+              src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTY2MzU2NjgxMDUwMDM5OTk5/_photo-by-per-anders-petterssongetty-images.jpg"
+              alt="profile pic"
+            />
+            <p class="message-title"><strong>Scrum Master</strong></p>
+          </div>
+          <h5 class="critical">Critical</h5>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+            ipsa deserunt voluptatem minus qui debitis assumenda eligendi. Eos
+            assumenda temporibus eligendi deserunt nesciunt. Earum culpa
+            delectus officiis alias veritatis voluptate dolorum mollitia
+            molestias laboriosam, doloribus similique labore cumque pariatur
+            quisquam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <p class="bottom-left">
+        <i class="fa fa-copyright"></i>
+        Settings
+      </p>
+      <div class="bottom-right">
+        <p>
+          <span class="active-input">Normal</span><span>Urgent</span
+          ><span>Critical</span>
+        </p>
+        <div class="input-area">
+          <input type="text" placeholder="Type your message here" /><i
+            class="fa fa-send-o"
+            style="opacity: 0.5;"
+          ></i
+          ><i class="fa fa-paperclip"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
