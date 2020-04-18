@@ -1,0 +1,137 @@
+* {
+  margin: 0.7rem;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(247, 243, 243);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 3rem;
+}
+.header-image {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+}
+img {
+  width: 40%;
+  border-radius: 50%;
+}
+.logout {
+  margin-top: 20%;
+}
+.display {
+  display: flex;
+}
+.message-head {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+.message-image-div {
+  width: 50%;
+  display: flex;
+}
+.message-title {
+  margin-top: 5%;
+}
+.message-image {
+  width: 10%;
+}
+.message-display {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid rgb(247, 243, 243);
+  -webkit-box-shadow: 0 0 5px #777;
+  -moz-box-shadow: 0 0 5px #777;
+  box-shadow: 0 0 5px #777;
+}
+.critical {
+  background-color: rgba(226, 12, 12, 0.952);
+  color: white;
+  height: 50%;
+  padding: 0.2rem 2rem;
+  border: 1px solid rgba(226, 12, 12, 0.952);
+}
+.active {
+  background-color: white;
+  padding: 1rem 2rem;
+  -webkit-box-shadow: 0 0 5px #777;
+  -moz-box-shadow: 0 0 5px #777;
+  box-shadow: 0 0 5px #777;
+}
+.bottom {
+  display: flex;
+  margin-top: 10%;
+}
+.fa {
+  margin: 0;
+}
+.fa-paperclip {
+  transform: rotateX(180deg);
+  margin-left: 1%;
+}
+.bottom-left {
+  flex: 1;
+  margin-top: 5%;
+}
+.bottom-right {
+  flex: 6;
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px #777;
+  -moz-box-shadow: 0 0 5px #777;
+  box-shadow: 0 0 5px #777;
+}
+.active-input {
+  background-color: green;
+  color: white;
+  padding: 0.25rem 1rem;
+}
+input {
+  width: 90%;
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(192, 188, 188);
+}
+.input-area {
+  background-color: rgb(192, 188, 188);
+  width: 90%;
+}
+@media (max-width: 600px) {
+  * {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .groups {
+    display: none;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .bottom-right {
+    order: 1;
+  }
+  .bottom-left {
+    order: 2;
+  }
+  span {
+    padding: 0rem 1rem;
+  }
+  .input {
+    width: 80%;
+  }
+  .fa-paperclip {
+    margin-left: 1%;
+  }
+}
+@media (max-width: 800px) {
+  input {
+    width: 80%;
+  }
+}
